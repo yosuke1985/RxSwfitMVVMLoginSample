@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		EABE229923BF5E85005EC230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABE229723BF5E85005EC230 /* LaunchScreen.storyboard */; };
 		EABE22A423BF5E85005EC230 /* RxSwfitMVVMLoginSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22A323BF5E85005EC230 /* RxSwfitMVVMLoginSampleTests.swift */; };
 		EABE22AF23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22AE23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift */; };
+		EABE22BD23BF658F005EC230 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22BC23BF658F005EC230 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		EABE22AA23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwfitMVVMLoginSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABE22AE23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwfitMVVMLoginSampleUITests.swift; sourceTree = "<group>"; };
 		EABE22B023BF5E85005EC230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABE22BC23BF658F005EC230 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EECF539F3FA5976583F6F5DE /* Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSampleTests/Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEDCF783C2A50025533F4E53 /* Pods-RxSwfitMVVMLoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSample/Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +113,6 @@
 				EECF539F3FA5976583F6F5DE /* Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig */,
 				3264E0F240E10CDFAEFB6C18 /* Pods-RxSwfitMVVMLoginSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				EABE228C23BF5E82005EC230 /* AppDelegate.swift */,
 				EABE228E23BF5E83005EC230 /* SceneDelegate.swift */,
 				EABE229023BF5E83005EC230 /* ViewController.swift */,
+				EABE22BC23BF658F005EC230 /* Model.swift */,
 				EABE229223BF5E83005EC230 /* Main.storyboard */,
 				EABE229523BF5E85005EC230 /* Assets.xcassets */,
 				EABE229723BF5E85005EC230 /* LaunchScreen.storyboard */,
@@ -411,6 +413,7 @@
 				EABE229123BF5E83005EC230 /* ViewController.swift in Sources */,
 				EABE228D23BF5E82005EC230 /* AppDelegate.swift in Sources */,
 				EABE228F23BF5E83005EC230 /* SceneDelegate.swift in Sources */,
+				EABE22BD23BF658F005EC230 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
