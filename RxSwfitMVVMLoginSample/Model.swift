@@ -19,11 +19,11 @@ extension ModelError {
     var errorText: String {
         switch self {
         case .invalidIdAndPassword:
-            return "IDとPasswordが未入力です。"
+            return "ID and Password are not entered."
         case .invalidId:
-            return "IDが未入力です。"
+            return "ID has not been entered."
         case .invalidPassword:
-            return "Passwordが未入力です。"
+            return "Password has not been entered."
         }
     }
 }

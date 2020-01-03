@@ -20,6 +20,7 @@
 		EABE22AF23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22AE23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift */; };
 		EABE22BD23BF658F005EC230 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22BC23BF658F005EC230 /* Model.swift */; };
 		EABE22BF23BF6AE7005EC230 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22BE23BF6AE7005EC230 /* ViewModel.swift */; };
+		EABE22C123BF7581005EC230 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EABE22C023BF7581005EC230 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		EABE22B023BF5E85005EC230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EABE22BC23BF658F005EC230 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EABE22BE23BF6AE7005EC230 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EABE22C023BF7581005EC230 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		EECF539F3FA5976583F6F5DE /* Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSampleTests/Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEDCF783C2A50025533F4E53 /* Pods-RxSwfitMVVMLoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSample/Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 		EABE228B23BF5E82005EC230 /* RxSwfitMVVMLoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				EABE22C023BF7581005EC230 /* README.md */,
 				EABE228C23BF5E82005EC230 /* AppDelegate.swift */,
 				EABE228E23BF5E83005EC230 /* SceneDelegate.swift */,
 				EABE229023BF5E83005EC230 /* ViewController.swift */,
@@ -285,6 +288,7 @@
 			files = (
 				EABE229923BF5E85005EC230 /* LaunchScreen.storyboard in Resources */,
 				EABE229623BF5E85005EC230 /* Assets.xcassets in Resources */,
+				EABE22C123BF7581005EC230 /* README.md in Resources */,
 				EABE229423BF5E83005EC230 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

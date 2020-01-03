@@ -3,9 +3,9 @@
 ## 要件
 
 - id, passを入力する。
-- id, pass未記入ならば、"IDとPassを入力してください"　と表示
-- passが未記入ならば、"IDを入力してください"と表示。
-- idが未記入ならば、"Passを入力してください"と表示。
+- id, pass未記入ならば、"ID and Password are not entered."　と表示
+- passが未記入ならば、"ID has not been entered."と表示。
+- idが未記入ならば、"Password has not been entered."と表示。
 - id,passが記入済みならば、"OK"と表示。
 
 ## 技術要件
