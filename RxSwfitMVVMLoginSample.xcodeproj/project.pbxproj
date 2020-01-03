@@ -19,6 +19,7 @@
 		EABE22A423BF5E85005EC230 /* RxSwfitMVVMLoginSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22A323BF5E85005EC230 /* RxSwfitMVVMLoginSampleTests.swift */; };
 		EABE22AF23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22AE23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift */; };
 		EABE22BD23BF658F005EC230 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22BC23BF658F005EC230 /* Model.swift */; };
+		EABE22BF23BF6AE7005EC230 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABE22BE23BF6AE7005EC230 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		EABE22AE23BF5E85005EC230 /* RxSwfitMVVMLoginSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwfitMVVMLoginSampleUITests.swift; sourceTree = "<group>"; };
 		EABE22B023BF5E85005EC230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EABE22BC23BF658F005EC230 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EABE22BE23BF6AE7005EC230 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		EECF539F3FA5976583F6F5DE /* Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSampleTests/Pods-RxSwfitMVVMLoginSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEDCF783C2A50025533F4E53 /* Pods-RxSwfitMVVMLoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwfitMVVMLoginSample/Pods-RxSwfitMVVMLoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 				EABE228E23BF5E83005EC230 /* SceneDelegate.swift */,
 				EABE229023BF5E83005EC230 /* ViewController.swift */,
 				EABE22BC23BF658F005EC230 /* Model.swift */,
+				EABE22BE23BF6AE7005EC230 /* ViewModel.swift */,
 				EABE229223BF5E83005EC230 /* Main.storyboard */,
 				EABE229523BF5E85005EC230 /* Assets.xcassets */,
 				EABE229723BF5E85005EC230 /* LaunchScreen.storyboard */,
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABE22BF23BF6AE7005EC230 /* ViewModel.swift in Sources */,
 				EABE229123BF5E83005EC230 /* ViewController.swift in Sources */,
 				EABE228D23BF5E82005EC230 /* AppDelegate.swift in Sources */,
 				EABE228F23BF5E83005EC230 /* SceneDelegate.swift in Sources */,
