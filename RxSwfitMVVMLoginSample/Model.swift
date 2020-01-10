@@ -35,20 +35,20 @@ protocol ModelProtocol {
 class Model: ModelProtocol {
     func validate(idText: String?, passwordText: String?) -> Observable<Void> {
         switch (idText, passwordText) {
-        case (.some, .none):
-            return Observable.error(ModelError.invalidPassword)
         case (.none, .some):
             return Observable.error(ModelError.invalidId)
+        case (.some, .none):
+            return Observable.error(ModelError.invalidPassword)
         case (.none, .none):
             return Observable.error(ModelError.invalidIdAndPassword)
         case (let idText?, let passwordText?):
             switch (idText.isEmpty, passwordText.isEmpty) {
+            case (true, false):
+                return Observable.error(ModelError.invalidId)
+            case (false, true):
+                return Observable.error(ModelError.invalidPassword)
             case (true, true):
                 return Observable.error(ModelError.invalidIdAndPassword)
-            case (true, false):
-                return Observable.error(ModelError.invalidPassword)
-            case (false, true):
-                return Observable.error(ModelError.invalidId)
             case (false, false):
                 return Observable.just(())
             }
